@@ -8,7 +8,7 @@ class TestSplinder(unittest.TestCase):
 
     def test_splinder_true(self):
         self.lastDate = dt.date(2018,1,1)
-        self.currDate = dt.date(2020,1,1)
+        self.currDate = dt.date(2021,1,1)
         s = SplinderBattery(self.lastDate,self.currDate)
         self.assertTrue(s.needs_service())
 

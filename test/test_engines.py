@@ -1,6 +1,6 @@
 import unittest
 import datetime as dt
-from engine.engine_type.willoughby_engine import WilloughbyEngine
+from ..engine.engine_type.willoughby_engine import WilloughbyEngine
 from ..engine.engine_type.sternman_engine import SternmanEngine
 from ..engine.engine_type.capulet_engine import CapuletEngine
 
